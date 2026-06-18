@@ -22,7 +22,7 @@ namespace TimerTodo
     {
         public MainWindow()
         {
-            InitializeComponent();
+            InitializeComponent(); 
             DataContext = this;
         }
 
