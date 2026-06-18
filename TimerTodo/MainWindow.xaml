@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TimerTodo"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="ToDo-list w a timer" Height="450" Width="800">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="30"/>
@@ -21,7 +21,7 @@
         </Grid.ColumnDefinitions>
 
         <!--<Label Content="{x:Static DateTime.Now}" ContentStringFormat="G" />-->
-        <Label Content="Time is:" Grid.Column="1"></Label> 
+        <!--<Label Content="Time is:" Grid.Column="1"></Label>--> 
         <Label Grid.Column="1" 
                Grid.Row="1"
                FontSize="50"
@@ -40,7 +40,7 @@
                 </Grid.ColumnDefinitions>
                 <TextBox x:Name="NewItemTextBox" Grid.Column="0"
                      KeyDown="NewItemTextBox_KeyDown" Margin="0,0,5,0"/>
-                <Button x:Name="AddButton" Grid.Column="1" Content="Tilføj"
+                <Button x:Name="AddButton" Grid.Column="1" Content="Add"
                     Click="AddButton_Click"/>
             </Grid>
 
