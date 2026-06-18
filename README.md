@@ -2,3 +2,6 @@
 
 En todo liste der også viser tiden.
 Simplet, nemt, og stjæler ikke dine data
+
+Det er håndskrevet XAML og C# for første gang i meget lang tid.
+Man starter altid med en todo-app, gør man ikke?
