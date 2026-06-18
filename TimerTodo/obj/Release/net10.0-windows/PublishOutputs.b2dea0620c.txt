@@ -1,0 +1,5 @@
+D:\chja\Publish\TimerTodo.exe
+D:\chja\Publish\TimerTodo.dll
+D:\chja\Publish\TimerTodo.deps.json
+D:\chja\Publish\TimerTodo.runtimeconfig.json
+D:\chja\Publish\TimerTodo.pdb
